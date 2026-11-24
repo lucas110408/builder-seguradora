@@ -1,0 +1,17 @@
+@startuml
+skinparam monochrome true
+skinparam style strictuml
+skinparam classBackgroundColor White
+skinparam backgroundColor White
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+
+class SeguradoBuilder {
+  + build() : Segurado
+}
+
+class Segurado {
+}
+
+SeguradoBuilder --> "1" Segurado
+@enduml
